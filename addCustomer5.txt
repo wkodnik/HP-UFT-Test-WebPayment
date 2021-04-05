@@ -1,0 +1,26 @@
+'' Loan Management System Autometed Testing 
+'' Add Customer
+'' *****************************************************
+'' FILENAME: addcustomer
+'' *****************************************************
+'' STUDENT: Lyudmyla Menshun 
+'' TASK: Assignment 15
+'' ______________________________________________________
+
+
+
+
+
+Dim firstName, lastName, street, city, province, zipPostalCode
+ 
+ For i = 1 To 10 Step 1
+ 	
+ 	firstName = GenerateCustomerName
+ 	lastName = GenerateCustomerLastName
+ 	street = GenerateCustomerStreet
+ 	city = GenerateCustomerCity
+ 	province = GenerateCustomerProvince
+    zipPostalCode = GenerateCustomerZipPostalCode
+    AddCustomer "Nain",  "admin",  "lmenshun0721",  firstName,  lastName,  street,  city,  province, zipPostalCode  
+ 
+Next
