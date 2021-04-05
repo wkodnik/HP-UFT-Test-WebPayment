@@ -10,7 +10,7 @@ Sub LaunchLoanApp ()
     ''if browser not open, then open 
     Else
 
-        systemutil.Run "IExplore.exe", "http://www.test-hitekschool.com/lms/loans/2108"
+        systemutil.Run "IExplore.exe", "http://www.test-jonas-club.com/lms/loans/2108"
         Wait(5)
 
 End If
